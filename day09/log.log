@@ -1,0 +1,92 @@
+2022-06-05 22:32:04,983--test_login.py--41--INFO:用例【登录成功】---执行成功
+2022-06-05 22:32:05,013--test_login.py--41--INFO:用例【账号为空】---执行成功
+2022-06-05 22:32:05,044--test_login.py--41--INFO:用例【密码为空】---执行成功
+2022-06-05 22:32:05,074--test_login.py--41--INFO:用例【密码错误】---执行成功
+2022-06-05 22:32:05,103--test_login.py--35--ERROR:用例【密码错误2】---执行失败
+2022-06-05 22:32:05,104--test_login.py--37--ERROR:{'code': 1, 'msg': '账号不正确'} != {'code': 1, 'msg': '账号或密码不正确'}
+- {'code': 1, 'msg': '账号不正确'}
++ {'code': 1, 'msg': '账号或密码不正确'}
+?                       +++
+Traceback (most recent call last):
+  File "D:\pythonworkspace\python01\day09\testcases\test_login.py", line 32, in test_login
+    self.assertEqual(expected, res)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1, 'msg': '账号不正确'} != {'code': 1, 'msg': '账号或密码不正确'}
+- {'code': 1, 'msg': '账号不正确'}
++ {'code': 1, 'msg': '账号或密码不正确'}
+?                       +++
+
+2022-06-05 23:04:00,127--test_login.py--43--INFO:用例【登录成功】---执行成功
+2022-06-05 23:04:00,158--test_login.py--43--INFO:用例【账号为空】---执行成功
+2022-06-05 23:04:00,188--test_login.py--43--INFO:用例【密码为空】---执行成功
+2022-06-05 23:04:00,218--test_login.py--43--INFO:用例【密码错误】---执行成功
+2022-06-05 23:04:00,248--test_login.py--37--ERROR:用例【密码错误2】---执行失败
+2022-06-05 23:04:00,248--test_login.py--39--ERROR:{'code': 1, 'msg': '账号不正确'} != {'code': 1, 'msg': '账号或密码不正确'}
+- {'code': 1, 'msg': '账号不正确'}
++ {'code': 1, 'msg': '账号或密码不正确'}
+?                       +++
+Traceback (most recent call last):
+  File "D:\pythonworkspace\python01\day09\testcases\test_login.py", line 34, in test_login
+    self.assertEqual(expected, res)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1, 'msg': '账号不正确'} != {'code': 1, 'msg': '账号或密码不正确'}
+- {'code': 1, 'msg': '账号不正确'}
++ {'code': 1, 'msg': '账号或密码不正确'}
+?                       +++
+
+2022-06-05 23:22:08,891--test_login.py--43--INFO:用例【登录成功】---执行成功
+2022-06-05 23:22:08,921--test_login.py--43--INFO:用例【账号为空】---执行成功
+2022-06-05 23:22:08,952--test_login.py--43--INFO:用例【密码为空】---执行成功
+2022-06-05 23:22:08,982--test_login.py--43--INFO:用例【密码错误】---执行成功
+2022-06-05 23:22:09,012--test_login.py--37--ERROR:用例【密码错误2】---执行失败
+2022-06-05 23:22:09,013--test_login.py--39--ERROR:{'code': 1, 'msg': '账号不正确'} != {'code': 1, 'msg': '账号或密码不正确'}
+- {'code': 1, 'msg': '账号不正确'}
++ {'code': 1, 'msg': '账号或密码不正确'}
+?                       +++
+Traceback (most recent call last):
+  File "D:\pythonworkspace\python01\day09\testcases\test_login.py", line 34, in test_login
+    self.assertEqual(expected, res)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1, 'msg': '账号不正确'} != {'code': 1, 'msg': '账号或密码不正确'}
+- {'code': 1, 'msg': '账号不正确'}
++ {'code': 1, 'msg': '账号或密码不正确'}
+?                       +++
+
+2022-06-05 23:30:21,561--test_login.py--43--INFO:用例【登录成功】---执行成功
+2022-06-05 23:30:21,591--test_login.py--43--INFO:用例【账号为空】---执行成功
+2022-06-05 23:30:21,623--test_login.py--43--INFO:用例【密码为空】---执行成功
+2022-06-05 23:30:21,653--test_login.py--43--INFO:用例【密码错误】---执行成功
+2022-06-05 23:30:21,684--test_login.py--37--ERROR:用例【密码错误2】---执行失败
+2022-06-05 23:30:21,684--test_login.py--39--ERROR:{'code': 1, 'msg': '账号不正确'} != {'code': 1, 'msg': '账号或密码不正确'}
+- {'code': 1, 'msg': '账号不正确'}
++ {'code': 1, 'msg': '账号或密码不正确'}
+?                       +++
+Traceback (most recent call last):
+  File "D:\pythonworkspace\python01\day09\testcases\test_login.py", line 34, in test_login
+    self.assertEqual(expected, res)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1, 'msg': '账号不正确'} != {'code': 1, 'msg': '账号或密码不正确'}
+- {'code': 1, 'msg': '账号不正确'}
++ {'code': 1, 'msg': '账号或密码不正确'}
+?                       +++
+

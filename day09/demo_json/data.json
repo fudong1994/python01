@@ -1,0 +1,22 @@
+{
+  "logging": {
+    "level": "DEBUG",
+    "file": "log.log"
+  },
+  "mysql": {
+    "host": "127.0.0.1",
+    "port": "3306"
+  },
+  "data": [
+    11,
+    22,
+    33,
+    44
+  ],
+  "datas": [
+    null,
+    true,
+    false
+  ]
+
+}

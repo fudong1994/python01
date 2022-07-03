@@ -1,0 +1,26 @@
+- data:
+    user: wuyanzu
+    pwd: 456465
+  expect:
+    code: 0
+    msg: 测试通过
+  title: 登录成功
+  case_id: 1
+
+- data:
+    user: wuyanzu
+    pwd: 456465
+  expect:
+    code: 0
+    msg: 测试通过
+  title: 登录成功
+  case_id: 1
+
+- data:
+    user: wuyanzu
+    pwd: 456465
+  expect:
+    code: 0
+    msg: 测试通过
+  title: 登录成功
+  case_id: 1
