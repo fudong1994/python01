@@ -16,5 +16,5 @@ params = '{"id": "#id#", "name": "#name#", "data": "#data#", "title": "#title#",
 
 import re
 
-res = re.findall("#.+?#",params)
+res = re.findall("#.+?#", params)
 print(res)
